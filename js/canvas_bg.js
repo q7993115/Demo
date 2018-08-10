@@ -10,7 +10,7 @@
 				size_min:1,   			     // 初始爱心大小的最小值
 				size_max:2,   			     // 初始爱心大小的最大值
 				size_add_min:0.08,               // 每次变大的最小值（就是速度）
-				size_add_max:0.15,               // 每次变大的最大值
+				size_add_max:0.12,               // 每次变大的最大值
 				opacity_min:0.3,                 // 初始透明度最小值
 				opacity_max:0.5, 				 // 初始透明度最大值
 				opacity_prev_min:.003,            // 透明度递减值最小值
