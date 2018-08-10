@@ -5,12 +5,12 @@
 			var w,h;
 			var pi = Math.PI;
 			var all_attribute = {
-				num:100,            			 // 个数
+				num:60,            			 // 个数
 				start_probability:0.1,		     // 如果数量小于num，有这些几率添加一个新的     		     
 				size_min:1,   			     // 初始爱心大小的最小值
 				size_max:2,   			     // 初始爱心大小的最大值
-				size_add_min:0.3,               // 每次变大的最小值（就是速度）
-				size_add_max:0.5,               // 每次变大的最大值
+				size_add_min:0.1,               // 每次变大的最小值（就是速度）
+				size_add_max:0.2,               // 每次变大的最大值
 				opacity_min:0.3,                 // 初始透明度最小值
 				opacity_max:0.5, 				 // 初始透明度最大值
 				opacity_prev_min:.003,            // 透明度递减值最小值
