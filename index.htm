@@ -12,26 +12,6 @@ body {
 	height:100%;
 	overflow:hidden; 
 }
-@-webkit-keyframes clouds {
- 0% {
-  left:-150%;
-  bottom:0%
- }
- to {
-  left:150%;
-  bottom:-50%
- }
-}
-@keyframes clouds {
- 0% {
-  left:-150%;
-  bottom:0%
- }
- to {
-  left:150%;
-  bottom:-50%
- }
-}
 #main{
 	position: absolute;
 	top: 50%;
@@ -46,52 +26,6 @@ body {
 		width: 80%;
 	}
 }
-.bgCloud{
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 1000;
-	width: 100%;
-	height: 100vh;
-	overflow: hidden;
-}
-.bg-Cloud {
-    border: none;
-    height: auto;
-    opacity: .25;
-    width: auto;
-    position: absolute;
-    z-index: 10;
-    background-repeat: no-repeat;
-    background-size: contain;
-    left: -150%;
-    bottom: -80%;
-    padding: 10%;
-}
-.bg-Cloud .clouds1{
-    background: url(images/about_cloud_01.png) no-repeat;
-    background-size: 100%;
-	height: 150vh;
-	width: 200%;
-	-webkit-animation: clouds 10s infinite linear;
-	animation: clouds 10s infinite linear;
-}
-.bg-Cloud.clouds2 {
-    background: url(images/about_cloud_02.png) no-repeat;
-    background-size: 100%;
-    height: 150vh;
-    width: 200%;
-    -webkit-animation: clouds 10s infinite linear 1.5s;
-    animation: clouds 10s infinite linear 1.5s;
-}
-.bg-Cloud.clouds3 {
-    background: url(images/about_cloud_03.png) no-repeat;
-    background-size: 100%;
-    height: 150vh;
-    width: 200%;
-    -webkit-animation: clouds 10s infinite linear 5s;
-    animation: clouds 10s infinite linear 5s;
-}
 </style>
 <script src="js/jquery.js"></script>
 <script type="text/javascript" src="js/canvas_bg.js"></script>
@@ -100,10 +34,5 @@ body {
 	<canvas id="c" style="position: absolute;z-index: -1;text-align: center;" width="100%" height="100vh"></canvas> 
 
 	<div id="main"><h1>0.0</h1></div>
-	<div class="bgCloud">
-		<div class="bg-Cloud clouds1"></div>
-		<div class="bg-Cloud clouds2"></div>
-		<div class="bg-Cloud clouds3"></div>
-	</div>
 
 </body></html>
